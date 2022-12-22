@@ -1,21 +1,19 @@
 #ifndef _SHELL_H_
 #define _SHELL_H_
 
-/*
- * File: shell.h
- * Auth: Alex Yu
- *       Brennan D Baraban
- */
 
-#include <fcntl.h>
-#include <signal.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <wait.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <sys/wait.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <errno.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <signal.h>
+#include <fcntl.h>
 
 #define END_OF_FILE -2
 #define EXIT -3
